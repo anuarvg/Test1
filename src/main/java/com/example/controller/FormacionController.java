@@ -49,7 +49,7 @@ public class FormacionController {
     	FormacionResponse response = new FormacionResponse();
     	
     	response.setCodigoRespuesta("OK");
-    	response.setMensaje("Hola " + nombre + " " + new Date());
+    	response.setMensaje("Hola " + nombre + " " + new Date() + " - patrass");
     	return response;
 	}
 
@@ -77,7 +77,7 @@ public class FormacionController {
     	FormacionResponse response = new FormacionResponse();
     	
     	response.setCodigoRespuesta("OK");
-    	response.setMensaje(echo+ " " + new Date());
+    	response.setMensaje(echo+ " " + new Date() + " - PaTrass");
     	return response;
 	}
 }
